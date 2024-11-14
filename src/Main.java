@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Robot myRobot = new Robot();
+        myRobot.move();
+        myRobot.checkBattery();
+        myRobot.stop();
+        myRobot.chargeBattery();
+        myRobot.displayInfo();
     }
 }
